@@ -1,0 +1,17 @@
+{
+  "name": "brunch-buble",
+  "version": "1.0.0",
+  "description": "Adds Buble support to brunch.",
+  "author": "Roberto Dip (http://roperzh.com/)",
+  "homepage": "https://github.com/roperzh/buble-brunch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:roperzh/buble-brunch.git"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "buble": "^0.14.2"
+  }
+}
