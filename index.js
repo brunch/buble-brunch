@@ -3,14 +3,14 @@
 const buble = require('buble');
 
 class BrunchBuble {
-  constructor({ plugins: { buble } }) {
-    this.config = buble || {};
+  constructor(config) {
+    this.config = config && config.plugins && config.plugins.buble || {};
   }
 
-  compile({ data }) {
+  compile(file) {
     try {
-      const { code } = buble.transform(data, this.config);
-      return Promise.resolve(code);
+      const transform = buble.transform(file.data, this.config);
+      return Promise.resolve(transform.code);
     } catch (error) {
       return Promise.reject(error);
     }
