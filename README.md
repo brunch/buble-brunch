@@ -1,8 +1,10 @@
 ## buble-brunch
+
 Adds [Bublé](https://gitlab.com/Rich-Harris/buble) support to
 [brunch](http://brunch.io).
 
 ## Usage
+
 Install the plugin via npm with `npm install --save-dev brunch-buble`.
 
 Or, do manual install:-buble
@@ -10,6 +12,22 @@ Or, do manual install:-buble
 * Add `"brunch-buble": "~x.y.z"` to `package.json` of your brunch app.
 * If you want to use git version of plugin, use the GitHub URI
 `"brunch-buble": "roperzh/brunch-buble"`.
+
+## Configuration
+
+All configurations in the `plugins.bubleBrunch` object will be passed directly to the
+buble compiler, be sure to [check the available options](https://buble.surge.sh/guide/#using-the-javascript-api)!
+
+```javascript
+exports.config = {
+  // ...
+  plugins: {
+    bubleBrunch: {
+      //...
+    }
+  }
+};
+```
 
 ## License
 

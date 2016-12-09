@@ -4,7 +4,7 @@ const buble = require('buble');
 
 class BrunchBuble {
   constructor(config) {
-    this.config = config && config.plugins && config.plugins.buble || {};
+    this.config = config && config.plugins && config.plugins.bubleBrunch || {};
   }
 
   compile(file) {
