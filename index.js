@@ -4,7 +4,7 @@ const buble = require('buble');
 
 class BrunchBuble {
   constructor(config) {
-    this.config = config && config.plugins && config.plugins.bubleBrunch || {};
+    this.config = config.plugins.bubleBrunch || {};
   }
 
   compile(file) {
@@ -20,6 +20,5 @@ class BrunchBuble {
 BrunchBuble.prototype.brunchPlugin = true;
 BrunchBuble.prototype.type = 'javascript';
 BrunchBuble.prototype.extension = 'js';
-BrunchBuble.prototype.pattern = /\.js$/;
 
 module.exports = BrunchBuble;
