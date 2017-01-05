@@ -9,7 +9,7 @@ Install the plugin via npm with `npm install --save-dev brunch-buble`.
 
 Or, do manual install:
 
-* Add `"brunch-buble": "~x.y.z"` to `package.json` of your brunch app.
+* Add `"brunch-buble": "~x.y.z"` to `package.json` of your Brunch app.
 * If you want to use git version of plugin, use the GitHub URI
 `"brunch-buble": "roperzh/brunch-buble"`.
 
