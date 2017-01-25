@@ -25,6 +25,7 @@
     "npm": ">=3.0"
   },
   "scripts": {
+    "test": "eslint ."
   },
   "dependencies": {
     "buble": "^0.14.2"
@@ -34,6 +35,11 @@
   },
   "devDependencies": {
     "anymatch": "^1.3.0",
+    "eslint": "^3.14.0",
+    "eslint-config-brunch": "brunch/eslint-config-brunch",
     "flatten-brunch-map": "^2.8.1"
+  },
+  "eslintConfig": {
+    "extends": "brunch"
   }
 }
