@@ -10,16 +10,16 @@ class BrunchBuble {
   constructor(config) {
     this.options = Object.assign({}, config.plugins.buble);
 
-    this.options.sourceMap = !!config.sourceMaps
-      && opts.sourceMap !== false
-      && opts.sourceMaps !== false;
+    this.options.sourceMap = !!config.sourceMaps &&
+      this.options.sourceMap !== false &&
+      this.options.sourceMaps !== false;
 
     this.pattern = this.options.pattern;
     this.ignored = anymatch(this.options.ignore || reIgnore);
   }
 
   compile(file) {
-    return new Promise((resolve, reject) {
+    return new Promise((resolve, reject) => {
       if (this.ignored(file.path)) {
         return resolve(file);
       }
@@ -30,7 +30,7 @@ class BrunchBuble {
         ));
 
         const sourcemaps = this.options.sourceMap ? output.map : false;
-        const result = flatten(file, output.code);
+        const result = flatten(file, output.code, sourcemaps);
 
         return resolve(result);
       } catch (reason) {
