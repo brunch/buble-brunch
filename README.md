@@ -1,4 +1,4 @@
-## buble-brunch
+# buble-brunch
 
 Adds [Bublé](https://gitlab.com/Rich-Harris/buble) support to
 [Brunch](http://brunch.io).
@@ -18,8 +18,8 @@ Or, do manual install:
 All configurations in the `plugins.buble` object will be passed directly to the
 buble compiler, be sure to [check the available options](https://buble.surge.sh/guide/#using-the-javascript-api)!
 
-```javascript
-exports.config = {
+```js
+module.exports = {
   // ...
   plugins: {
     buble: {
@@ -33,7 +33,7 @@ exports.config = {
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Roberto Dip (http://roperzh.com)
+Copyright (c) 2017 Roberto Dip and Alberto Martínez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
