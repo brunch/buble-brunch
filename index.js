@@ -14,7 +14,7 @@ class BrunchBuble {
       this.options.sourceMap !== false &&
       this.options.sourceMaps !== false;
 
-    this.pattern = this.options.pattern;
+    if (this.options.pattern) this.pattern = this.options.pattern;
     this.ignored = anymatch(this.options.ignore || reIgnore);
   }
 
