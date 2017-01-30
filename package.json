@@ -1,5 +1,5 @@
 {
-  "name": "brunch-buble",
+  "name": "buble-brunch",
   "version": "4.2.3",
   "description": "Adds support to transform ES6 to ES5 with Bublé to Brunch.",
   "files": [
@@ -17,14 +17,14 @@
       "url": "https://github.com/aMarCruz"
     }
   ],
-  "homepage": "https://github.com/roperzh/buble-brunch",
+  "homepage": "https://github.com/brunch/buble-brunch",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:roperzh/buble-brunch.git"
+    "url": "git@github.com:brunch/buble-brunch.git"
   },
   "bugs": {
-    "url": "https://github.com/aMarCruz/bublejs-brunch/issues"
+    "url": "https://github.com/brunch/buble-brunch/issues"
   },
   "engines": {
     "node": ">=4.0",
