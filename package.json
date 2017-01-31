@@ -1,6 +1,6 @@
 {
   "name": "buble-brunch",
-  "version": "4.2.3",
+  "version": "1.0.2",
   "description": "Adds support to transform ES6 to ES5 with Bublé to Brunch.",
   "files": [
     "*.js"
