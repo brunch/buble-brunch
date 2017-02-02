@@ -1,4 +1,4 @@
-# buble-brunch 2.0.0 (Jan 31, 2017)
+# buble-brunch 2.0.0 (Feb 2, 2017)
 
 * API Change: Merge with [bublejs-brunch](https://www.npmjs.com/package/bublejs-brunch) and [brunch-buble](https://www.npmjs.com/package/brunch-buble)
 * Rename to `buble-brunch`
