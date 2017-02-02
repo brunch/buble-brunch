@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "eslint": "^3.14.0",
-    "eslint-config-brunch": "eslint-config-brunch"
+    "eslint-config-brunch": "^1"
   },
   "eslintConfig": {
     "extends": "brunch"
